@@ -1,0 +1,30 @@
+{
+  "name": "08-task-api",
+  "version": "1.0.0",
+  "description": "task api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twiinko-rocker/08-task-api.git"
+  },
+  "keywords": [
+    "task",
+    "api",
+    "backend"
+  ],
+  "author": "Alan Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twiinko-rocker/08-task-api/issues"
+  },
+  "homepage": "https://github.com/twiinko-rocker/08-task-api#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1"
+  }
+}
